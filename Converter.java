@@ -30,5 +30,8 @@ public class Converter {
 		// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
 		double valueCelsius = test.fahrenheitToCelsius(250);
 		System.out.println("convert 250 Fahrenheit to Celsius value: "+ String.format("%.2f", valueCelsius));
+		//Call kilometersToMiles to convert 30 Kilometers to mile value.
+		double valueMile = test.kilometersToMiles(30);
+		System.out.println("convert 30 Kilometers to mile value: "+ String.format("%.2f", valueMile));
 	}
 }
