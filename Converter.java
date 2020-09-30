@@ -15,6 +15,11 @@ public class Converter {
 		// TODO: The second student will implement this method
 		return (5 *(F -32) /9);
 	}
+	
+	private double kilometersToMiles(double k) {
+		//TODO: The second student will implement this method
+		return 0.62137*k;
+	}
 
 	public static void main(String[] args) {
 		//TODO: The first student will implement this method.
